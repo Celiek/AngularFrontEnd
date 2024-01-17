@@ -1,0 +1,14 @@
+<div class="row justify-content-center">
+    <div class="col-lg-8 col-xl-7">
+        <form id="contactForm">
+
+            <div class="form-floating mb-3">
+                <label for="formFileSm" class="form-label">Załącz plik z bazą danych</label><br><br>
+                <input class="form-control form-control-lg" id="formFileLg" type="file" (change)="uploadFile($event)">
+            </div>
+
+            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+            <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Prześlij</button>
+        </form>
+    </div>
+</div>
